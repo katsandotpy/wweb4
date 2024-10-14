@@ -1,0 +1,54 @@
+@media screen and (max-width:660px){
+    .main{
+        grid-template-columns: auto;
+        grid-template-rows: repeat(6, auto);
+        width:100vw;
+    }
+    .header{
+        flex-direction: column;
+        height: auto;
+        width: 100vw;
+    }
+    .logo{
+        grid-column: auto;
+        width: 100vw;
+        height: 304;
+        object-fit: contain;
+    }
+
+    .nav {
+        grid-column: auto;
+    }
+
+    .ad {
+        grid-column: auto;
+    }
+
+    img{
+        width:100%;
+        height:auto;
+        object-fit: cover;
+    }
+    .container{
+        flex-direction: column;
+        width:100vw;
+    }
+    .header-text{
+        grid-column: auto;
+        width: 100vw;
+    }
+    aside{
+        width: 100vw !important;
+        box-sizing: border-box;
+    }
+    li{
+        display: block;
+        text-align:center;
+
+    }
+    .content{
+        width:100vw;
+        box-sizing: border-box;
+        
+    }
+}
